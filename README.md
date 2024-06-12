@@ -27,6 +27,7 @@ extract the words starting with "PHP" from the input string and store them in an
 8. If no words are found, display the appropriate informational message.
 Test your code by entering different strings into the form and check if the expected output is
 displayed.
+9. Upload your PHP files in your respective folder :Assignment5_Part1
 
 # Hints:
 • The PHP function preg_match_all() can be used to perform a global regular
@@ -56,6 +57,7 @@ a. Calculate the length of the string.
 b. Convert the string to uppercase.
 c. Convert the string to lowercase.
 d. Finally, display the results of the string manipulation operations below the form.
+5. Upload your PHP files in your respective folder :Assignment5_Part2
 
 Test your code by executing it and ensure that the expected output is displayed.
 You can check how the correct webpage with the solution should look like from
@@ -86,6 +88,8 @@ properties.
 and age.
 7. Display the user details below the form using the getName() and getAge()
 methods.
+8. Upload your PHP files in your respective folder :Assignment5_Part3
+
 Test your code by executing it and ensure that the expected output is displayed.
 You can check how the correct webpage with the solution should look like from
 http://172.21.82.208/gift/class7/solution/part3/index.php
@@ -111,6 +115,7 @@ error message.
 d. Throw a custom exception using the provided custom exception message and
 catch it using the appropriate exception handling.
 e. Display the custom error message and custom exception message below the form.
+5. Upload your PHP files in your respective folder :Assignment5_Part4
 
 Test your code by executing it and ensure that the expected output is displayed.
 You can check how the correct webpage with the solution should look like from
@@ -143,5 +148,7 @@ display an error that indicates that you can’t promote the first task.
 the Sort button is displayed only if the task list contains two or more tasks.
 9. Don’t forget to test your changes to make sure that they work correctly!
 Test your code by executing it and ensure that the expected output is displayed.
+10.Upload your PHP files in your respective folder :Assignment5_Part5
+
 You can check how the correct webpage with the solution should look like from
 http://172.21.82.208/gift/class7/solution/part5/index.php
