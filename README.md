@@ -1,118 +1,148 @@
-# Assignment-4
+Advanced PHP
+Part 1
+PCRE in PHP
+Practice using PCRE (Perl-Compatible Regular Expressions) in PHP to extract specific patterns
+from a string.
+Instructions:
+1. Open the provided index.php file in a web browser (through server like your localhost or
+university server).
+2. Study the existing code and understand its structure and purpose.
+3. Notice that there is an incomplete PHP code segment that needs to be filled in to
+complete the functionality.
+4. Your task is to complete the missing code segments to achieve the following:
+a. When the form is submitted, the PHP code should extract all the words starting
+with "PHP" from the input string.
+b. If any words starting with "PHP" are found, display them as an unordered list
+(each word as a list item) below the form.
+c. If no words starting with "PHP" are found, display an informational message
+indicating so.
 
-## Introduction to PHP
+5. To complete the code, locate the comments // Extract all words starting with 'PHP'
+and // Your code here in the PHP section.
+6. Inside the // Your code here section, write the necessary PHP code using PCRE to
+extract the words starting with "PHP" from the input string and store them in an array.
+7. If any words are found, iterate over the array and display each word as a list item.
+8. If no words are found, display the appropriate informational message.
+Test your code by entering different strings into the form and check if the expected output is
+displayed.
+Hints:
+• The PHP function preg_match_all() can be used to perform a global regular
+expression match and extract all occurrences into an array.
+• Use the regular expression pattern /\b(PHP\w+)\b/i to match words starting with
+"PHP" (case-insensitive).
 
-## How to upload your homework?
+Make sure your site is accessible (xxxxx is your
+student ID)
+• xxxxx/class7/part1/index.php
+• xxxxx/class7/part2/index.php
+• xxxxx/class7/part3/index.php
+• xxxxx/class7/part4/index.php
+• xxxxx/class7/part5/index.html
 
-1. Click on the URL : http://172.21.82.208/wdp/login.php to access the login page. You’re Username and Password will be provided by Slack. Please login with your credentials.
+• Use the PHP variable $matches to store the matches found by preg_match_all().
+• Remember to properly escape and sanitize the user input before displaying it to prevent
+any potential security vulnerabilities.
+Test your code by executing it and ensure that the expected output is displayed.
+You can check how the correct webpage with the solution should look like from
+http://172.21.82.208/gift/class7/solution/part1/index.php
 
-<img width="460" alt="Screenshot 2024-06-04 at 17 22 46" src="https://github.com/Shibaura-WebDesign-2024/Assignment-4/assets/166518626/d51a8bb4-4609-46b9-a07e-c144925ce795">
+Part 2
+String manipulation
+Apply string manipulation operations on user input using PHP.
+Display the results of string manipulation on the web page.
+Instructions:
+1. Open the provided index.php file in a web browser (through server like your localhost or
+university server).
+2. Study the existing code and understand its structure and purpose.
+3. Notice that there is an incomplete PHP code segment that needs to be filled in to
+complete the functionality.
+4. Your task is to complete the missing code segments to achieve the following:
+a. Calculate the length of the string.
+b. Convert the string to uppercase.
+c. Convert the string to lowercase.
+d. Finally, display the results of the string manipulation operations below the form.
 
+Test your code by executing it and ensure that the expected output is displayed.
+You can check how the correct webpage with the solution should look like from
+http://172.21.82.208/gift/class7/solution/part2/index.php
 
-2. After logging in, you will be taken to the dashboard. Please create a new folder for each homework part (For example, Assignment4_Part1). Please upload you PHP file inside each respective folder.
+Part 3
+OOP Form Assignment
+Create a PHP form that accepts user input for name and age.
+Implement an Object-Oriented Programming (OOP) approach to store and display user details.
+Instructions:
+1. Open the provided index.php file in a web browser (through server like your localhost or
+university server).
+2. Study the existing code and understand its structure and purpose.
+3. Notice that there is an incomplete PHP code segment that needs to be filled in to
+complete the functionality.
 
-![image (1)](https://github.com/Shibaura-WebDesign-2024/Assignment-4/assets/167288305/5251e463-71cc-4272-aab7-6ab755817c1e)
+4. Your task is to complete the missing code segments to create an object of the User class
+to store the user details. The User class should have the following properties and
+methods:
+5. The User class should have the following properties and methods:
+• Properties: name (string), age (integer)
+• Constructor: Accepts name and age as parameters and sets the values of the
+properties.
+• Methods: getName() and getAge() to retrieve the values of the properties.
+6. After the form is submitted, create an instance of the User class with the provided name
+and age.
+7. Display the user details below the form using the getName() and getAge()
+methods.
+Test your code by executing it and ensure that the expected output is displayed.
+You can check how the correct webpage with the solution should look like from
+http://172.21.82.208/gift/class7/solution/part3/index.php
 
+Part 4
+Error & Exception Handling Assignment
+Create a PHP form that accepts user input for custom error message and custom exception
+message.
+Instructions:
+1. Open the provided index.php file in a web browser (through server like your localhost or
+university server).
+2. Study the existing code and understand its structure and purpose.
+3. Notice that there is an incomplete PHP code segment that needs to be filled in to
+complete the functionality.
+4. Your task is to complete the missing code segments to implement a custom error handler
+function and a custom exception class.
+a. The custom error handler function should output the user provided error message.
+b. The custom exception class should extend the base Exception class and
+override the __toString() method to provide a formatted exception message.
+c. After the form is submitted, trigger a custom error using the provided custom
+error message.
+d. Throw a custom exception using the provided custom exception message and
+catch it using the appropriate exception handling.
+e. Display the custom error message and custom exception message below the form.
 
+Test your code by executing it and ensure that the expected output is displayed.
+You can check how the correct webpage with the solution should look like from
+http://172.21.82.208/gift/class7/solution/part4/index.php
 
-# Part 1
-
-**Creating a Simple Calculation Program using PHP**
-
-In this exercise, you will apply your knowledge of PHP to create a simple calculation program. You will use variables to store values and perform calculations, and then display the results on a web page.
-
-1. With the given index.php, please fill in necessary PHP code to define a variable and perform calculations.
-2. Calculate the sum of the numbers 100, 1050, and 200 and store it in **a variable**.
-3. Use another PHP code block to display the calculated sum on the web page.
-4. Below the sum calculation, write additional PHP code to calculate the tax-inclusive amount (8% and 10%).
-5. Use another PHP code block to display the tax-inclusive amount on the web page.
-6. Save index.php file
-7. Upload your PHP files in your respective folder :Assignment4_Part1
-
-> You can check how the correct webpage should look like from http://172.21.82.208/gift/class6/sol/part1/index.php
-
-
-# Part2
-
-**Display Numbers from 1 to 365 using PHP**
-
-In this exercise, you will use your knowledge of PHP to display numbers from 1 to 365 on a web page. You will be required to write the PHP code that performs the necessary calculations.
-
-1. With the given index.php, please fill in necessary PHP code to define a variable and perform calculations.
-2. Inside the `<pre></pre>` tags, you will write PHP code to display numbers from 1 to 365.
-3. Using a suitable PHP loop construct, write the necessary code to loop through the numbers from 1 to 365.
-4. Create a variable to store each number in the loop.
-5. Display each number on a new line using the `print()` or `echo` statement.
-6. Save index.php file
-7. Upload your PHP files in your respective folder :Assignment4_Part2
-
-> You can check how the correct webpage should look like from http://172.21.82.208/gift/class6/sol/part2/index.php
-
-
-# Part 3
-
-**Experiment with PHP arrays**
-
-In this homework assignment, you will practice working with PHP arrays. You will perform various operations on arrays, such as creating, using array functions.
-
-> Hint: The ksort() function is used to sort the associative array $fruits by its keys in ascending order.
-
-1. With the given part3.php, please fill in necessary PHP code.
-2. Create the associative array by inputting romaji for each English word
-3. Use another PHP code block to display result of your associative array using foreach function
-4. Use another PHP code block to sort the array using ksort and display again.
-5. Save index.php file
-6. Upload your PHP files in your respective folder :Assignment4_Part3
-
-> You can check how the correct webpage should look like from http://172.21.82.208/gift/class6/sol/part3/index.php
-
-# Part 4
-
-**Getting input and output using Forms**
-
-In this exercise, you will write the PHP code that gets input from a form and displays the output.
-
-**Open and test the application**
-
-Open and test application by running the index.php file
-
-Write the code that gets and displays the data entered by the user
-
-**You need to edit display_result.php file**
-
-**Can you try to**
-
-1. Add the code that gets the data from the controls on the first page. Then, add the code that displays this data.
-2. For the radio buttons, display a value of “Unknown” if the user doesn’t select a radio button.
-3. For the check box, display a value of “Yes” or “No” depending on whether the user has selected the check box.
-4. For all fields that allow the user to type text into the field, make sure to convert special characters into HTML entities before displaying that data on the second page by using the php function htmlspecialchars()
-5. For the comment field, make sure to convert new line characters to <br> tags so the web page can display new line characters correctly.
-6. Test the application to make sure it works correctly. To do that, you can test text fields with special characters such as the ampersand (&), and you can press the Enter key in the comments field to enter a new line character.
-7. Save **display_result.php** file
-8. Upload your PHP files in your respective folder :Assignment4_Part4
-
-> You can check how the correct webpage should look like from 
-http://172.21.82.208/gift/class6/sol/part4/index.php
-
-# Part 5
-
-**Getting the order using PHP Form**
-
-**You need to edit pizza.php file**
-
-1. Open the HTML file (index.html)
-2. Can you modify the PHP code in pizza.php so that it would receive the information the user input in the form shown in index.html?
-3. Save pizza.php file
-4. Upload your PHP files in your respective folder :Assignment4_Part5
-
-   
-<img width="480" alt="Screenshot 2024-06-05 at 16 49 30" src="https://github.com/Shibaura-WebDesign-2024/Assignment-4/assets/166518626/fae6d772-a569-4f13-abf2-bd527825bc7a">
-
-The input example on index.html
-
-<img width="470" alt="Screenshot 2024-06-05 at 17 01 23" src="https://github.com/Shibaura-WebDesign-2024/Assignment-4/assets/166518626/a855299f-bf51-48a7-ab99-e18d4a4bb318">
-
-The resulting page (pizza.php) after taking the input above
-
-> You can check how the correct webpage should look like from 
-http://172.21.82.208/gift/class6/sol/part5/index.html
+Part 5
+Advanced PHP array
+Explore arrays and array methods within the Task List Manager application.
+Practice manipulating and working with arrays to manage tasks.
+Test the application
+1. Open and test the application program (index.php) provided in part4 folder.
+2. Test this application by using the Add Task button to enter three tasks and the Delete
+Task button to delete one of the tasks. The other buttons shouldn’t do anything.
+3. In the tasklist.php file, just inside the <main> tag, add the following code: <p><?php
+print_r($task_list); ?></p>
+4. Save your changes and run the application. You should see the indexes and values for the
+$task_list array in the browser.
+Modify and enhance the application
+5. Modify the code for adding a task so it uses the array_push() function to add a new
+task to the end of the $task_list array. Then, test this change.
+6. Add code that lets the user modify an existing task. If the user clicks on the Modify Task
+button, this code should hide the form that contains the Modify Task button, and it should
+display the form that’s included in the tasklist.php file. This form displays the current
+task in a text box and includes buttons that lets users save or cancel their changes.
+7. Add code that allows the user to promote a task. This code should move the selected task
+up one index in the array of tasks. If the user selects the first task, this code should
+display an error that indicates that you can’t promote the first task.
+8. Add code that lets the user sort all tasks alphabetically. In addition, modify the code so
+the Sort button is displayed only if the task list contains two or more tasks.
+9. Don’t forget to test your changes to make sure that they work correctly!
+Test your code by executing it and ensure that the expected output is displayed.
+You can check how the correct webpage with the solution should look like from
+http://172.21.82.208/gift/class7/solution/part5/index.php
