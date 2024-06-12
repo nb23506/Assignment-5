@@ -1,6 +1,8 @@
-Advanced PHP
-Part 1
-PCRE in PHP
+# Assignment 5
+# Advanced PHP
+# Part 1
+# PCRE in PHP
+
 Practice using PCRE (Perl-Compatible Regular Expressions) in PHP to extract specific patterns
 from a string.
 Instructions:
@@ -25,20 +27,12 @@ extract the words starting with "PHP" from the input string and store them in an
 8. If no words are found, display the appropriate informational message.
 Test your code by entering different strings into the form and check if the expected output is
 displayed.
-Hints:
+
+# Hints:
 • The PHP function preg_match_all() can be used to perform a global regular
 expression match and extract all occurrences into an array.
 • Use the regular expression pattern /\b(PHP\w+)\b/i to match words starting with
 "PHP" (case-insensitive).
-
-Make sure your site is accessible (xxxxx is your
-student ID)
-• xxxxx/class7/part1/index.php
-• xxxxx/class7/part2/index.php
-• xxxxx/class7/part3/index.php
-• xxxxx/class7/part4/index.php
-• xxxxx/class7/part5/index.html
-
 • Use the PHP variable $matches to store the matches found by preg_match_all().
 • Remember to properly escape and sanitize the user input before displaying it to prevent
 any potential security vulnerabilities.
@@ -46,8 +40,9 @@ Test your code by executing it and ensure that the expected output is displayed.
 You can check how the correct webpage with the solution should look like from
 http://172.21.82.208/gift/class7/solution/part1/index.php
 
-Part 2
-String manipulation
+# Part 2
+# String manipulation
+
 Apply string manipulation operations on user input using PHP.
 Display the results of string manipulation on the web page.
 Instructions:
