@@ -61,10 +61,12 @@ Test your code by executing it and ensure that the expected output is displayed.
 You can check how the correct webpage with the solution should look like from
 http://172.21.82.208/gift/class7/solution/part2/index.php
 
-Part 3
-OOP Form Assignment
+# Part 3
+# OOP Form Assignment
+
 Create a PHP form that accepts user input for name and age.
 Implement an Object-Oriented Programming (OOP) approach to store and display user details.
+
 Instructions:
 1. Open the provided index.php file in a web browser (through server like your localhost or
 university server).
@@ -88,10 +90,11 @@ Test your code by executing it and ensure that the expected output is displayed.
 You can check how the correct webpage with the solution should look like from
 http://172.21.82.208/gift/class7/solution/part3/index.php
 
-Part 4
-Error & Exception Handling Assignment
+# Part 4
+# Error & Exception Handling Assignment
 Create a PHP form that accepts user input for custom error message and custom exception
 message.
+
 Instructions:
 1. Open the provided index.php file in a web browser (through server like your localhost or
 university server).
@@ -113,10 +116,11 @@ Test your code by executing it and ensure that the expected output is displayed.
 You can check how the correct webpage with the solution should look like from
 http://172.21.82.208/gift/class7/solution/part4/index.php
 
-Part 5
-Advanced PHP array
+# Part 5
+# Advanced PHP array
 Explore arrays and array methods within the Task List Manager application.
 Practice manipulating and working with arrays to manage tasks.
+
 Test the application
 1. Open and test the application program (index.php) provided in part4 folder.
 2. Test this application by using the Add Task button to enter three tasks and the Delete
