@@ -12,11 +12,11 @@ university server).
 3. Notice that there is an incomplete PHP code segment that needs to be filled in to
 complete the functionality.
 4. Your task is to complete the missing code segments to achieve the following:
-a. When the form is submitted, the PHP code should extract all the words starting
+- a. When the form is submitted, the PHP code should extract all the words starting
 with "PHP" from the input string.
-b. If any words starting with "PHP" are found, display them as an unordered list
+- b. If any words starting with "PHP" are found, display them as an unordered list
 (each word as a list item) below the form.
-c. If no words starting with "PHP" are found, display an informational message
+- c. If no words starting with "PHP" are found, display an informational message
 indicating so.
 
 5. To complete the code, locate the comments // Extract all words starting with 'PHP'
@@ -53,10 +53,10 @@ university server).
 3. Notice that there is an incomplete PHP code segment that needs to be filled in to
 complete the functionality.
 4. Your task is to complete the missing code segments to achieve the following:
-a. Calculate the length of the string.
-b. Convert the string to uppercase.
-c. Convert the string to lowercase.
-d. Finally, display the results of the string manipulation operations below the form.
+   - a. Calculate the length of the string.
+   - b. Convert the string to uppercase.
+   - c. Convert the string to lowercase.
+   - d. Finally, display the results of the string manipulation operations below the form.
 5. Upload your PHP files in your respective folder :Assignment5_Part2
 
 Test your code by executing it and ensure that the expected output is displayed.
@@ -80,10 +80,10 @@ complete the functionality.
 to store the user details. The User class should have the following properties and
 methods:
 5. The User class should have the following properties and methods:
-• Properties: name (string), age (integer)
-• Constructor: Accepts name and age as parameters and sets the values of the
+- • Properties: name (string), age (integer)
+- • Constructor: Accepts name and age as parameters and sets the values of the
 properties.
-• Methods: getName() and getAge() to retrieve the values of the properties.
+- • Methods: getName() and getAge() to retrieve the values of the properties.
 6. After the form is submitted, create an instance of the User class with the provided name
 and age.
 7. Display the user details below the form using the getName() and getAge()
@@ -107,14 +107,14 @@ university server).
 complete the functionality.
 4. Your task is to complete the missing code segments to implement a custom error handler
 function and a custom exception class.
-a. The custom error handler function should output the user provided error message.
-b. The custom exception class should extend the base Exception class and
+- a. The custom error handler function should output the user provided error message.
+- b. The custom exception class should extend the base Exception class and
 override the __toString() method to provide a formatted exception message.
-c. After the form is submitted, trigger a custom error using the provided custom
+- c. After the form is submitted, trigger a custom error using the provided custom
 error message.
-d. Throw a custom exception using the provided custom exception message and
+- d. Throw a custom exception using the provided custom exception message and
 catch it using the appropriate exception handling.
-e. Display the custom error message and custom exception message below the form.
+- e. Display the custom error message and custom exception message below the form.
 5. Upload your PHP files in your respective folder :Assignment5_Part4
 
 Test your code by executing it and ensure that the expected output is displayed.
